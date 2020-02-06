@@ -33,19 +33,6 @@ module.exports = function (app, db) {
         });
     });
 
-    // app.get('/discussion/child/:id', (req, res) => {
-    //     const id = req.params.id;
-    //     console.log('=============', id)
-    //     // const details = { '_id': new ObjectID(id) };
-    //     // db.collection('discussion ').find({}).toArray((err, items) => {
-    //     //     if (err) {
-    //     //         res.send({ 'error': 'An error has occurred' });
-    //     //     } else {
-    //     //         res.send(items);
-    //     //     }
-    //     // });
-    // });
-
     app.put('/discussion/:id', (req, res) => {
         const id = req.params.id;
         const details = { '_id': new ObjectID(id) };
