@@ -16,6 +16,8 @@
     "mongodb": "^3.3.0-beta2"
   },
   "devDependencies": {
+    "fs": "0.0.1-security",
+    "https": "^1.0.0",
     "nodemon": "^1.19.1"
   }
 }
